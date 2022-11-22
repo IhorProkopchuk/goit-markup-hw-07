@@ -143,9 +143,10 @@ img {
     border-radius: 2px;
     background-color: var(--brand-color-main);
 }
-*/
+
 /*contacts*/
 
+/*
 .contacts {
     display: flex;
     margin-left: auto;
@@ -196,7 +197,7 @@ img {
     fill: var(--brand-color-main);
 }
 
-
+*/
 /* ORDER */ 
 
 .order {
