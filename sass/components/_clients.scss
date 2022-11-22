@@ -1,0 +1,52 @@
+.clients-main {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--brand-plate-clr);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover, .clients-link:focus {
+    border: 1px solid var(--brand-color-main);
+    border-radius: 4px;
+    color: var(--brand-color-main);
+}
+.clients-icon {
+    fill: #AFB1B8;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover .clients-icon {
+    fill: var(--brand-color-main);
+}
+
+.clients-link:focus .clients-icon {
+    fill: var(--brand-color-main);
+}
