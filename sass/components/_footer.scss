@@ -96,3 +96,47 @@
 .socials-ft-icon {
     fill: #FFFFFF;
 }
+
+/*Subscr*/
+
+.footer-subscribe {
+    margin-left: 93px;
+}
+
+.footer-subscribe-text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-subscribe-input {
+    padding: 0;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-input:hover,
+.footer-subscribe-input:focus {
+    border: 1px solid var(--brand-color-main);
+}
