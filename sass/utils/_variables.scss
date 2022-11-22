@@ -1,0 +1,13 @@
+:root {
+    --brand-color-main:#2196F3;
+    --brand-color-alt: #757575;
+    --brand-txt-clr:#212121;
+    --brand-plate-clr: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-txt-clr);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
