@@ -1,0 +1,33 @@
+.order {
+    background-color: var(--brand-plate-clr);
+    text-align: center;
+    padding: 200px 0;
+}
+
+.order-img {
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+    line-height: 1.36;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
