@@ -1,4 +1,5 @@
-.clients-main {
+
+.clients__title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -8,14 +9,14 @@
     margin-bottom: 50px;
 }
 
-.clients-list {
+
+.clients__list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    flex-wrap: wrap;
+    margin: -15px;
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,12 +31,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients__link:hover, .clients__link:focus {
     border: 1px solid var(--brand-color-main);
     border-radius: 4px;
     color: var(--brand-color-main);
 }
-.clients-icon {
+.clients__icon {
     fill: #AFB1B8;
 
     transition-property: fill;
@@ -43,10 +44,30 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover .clients-icon {
+.clients__link:hover .clients__icon {
     fill: var(--brand-color-main);
 }
 
-.clients-link:focus .clients-icon {
+.clients__link:focus .clients__icon {
     fill: var(--brand-color-main);
+}
+
+.clients__item {
+    @media screen and (max-width: 767px) {
+      width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+    max-width: 210px;
+    }
+
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 3 * 30px) / 3);
+    margin: 15px;
+    width: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 6 * 30px) / 6);
+    margin: 15px;
+    width: 170px;
+    }
 }
